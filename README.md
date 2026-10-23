@@ -8,3 +8,9 @@ Vercel serves it as a static site, so there is nothing to build.
 
 To update the site, replace `index.html` with the new version and commit.
 Vercel redeploys automatically.
+
+## Paused
+
+The site is currently paused. `middleware.js` answers every request with a
+"temporarily unavailable" page, so the guide is not served to anyone.
+To bring the site back, delete `middleware.js` and commit.
